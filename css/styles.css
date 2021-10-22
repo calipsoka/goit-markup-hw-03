@@ -11,7 +11,9 @@ body {
     margin: 0;
     font-family: "Roboto", "Arial", sans-serif;
     color: var(--main-color);
-    font-style: 400;
+    font-style: normal;
+    font-weight: 400;
+
 }
 
 h1,h2,h3,p,ul {
@@ -139,7 +141,8 @@ header {
     padding-top: 200px;
     padding-right: 452px;
     padding-bottom: 200px;
-    padding-left: 425px;
+    padding-left: 452px;
+    background: #2F303A;
 
 }
 .hero-title {
@@ -151,6 +154,8 @@ header {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+
+    color: #FFFFFF;
 }
 
 
@@ -294,7 +299,7 @@ color: #212121;
 .filters {
     display: flex;
     justify-content: center;
-    margin-bottom: 56px;
+    margin-bottom: 50px;
 }
 .filters .item{
     margin-right: 8px;
@@ -343,17 +348,22 @@ flex-wrap: wrap;
 
 /* -----------------------------------------------  Footer -------------------------------------- */
 footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
     background-color: var(--bg-color);
 }
 .footer-contacts{
     display: block;
+
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    font-style: normal;
     color: rgba(255, 255, 255, 0.6);
     }
-    .address .item:not(:last-child) {
+
+.address .item:not(:last-child) {
     margin-bottom: 9px;
 }
 
