@@ -58,7 +58,6 @@ img {
 }
 
 .section {
-    text-align: center;
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -138,7 +137,11 @@ header {
 .hero {
     padding-top: 200px;
     padding-bottom: 200px;
+   
     background-color: var(--bg-color);
+
+    text-align: center;
+
 }
 
 .hero-title {
@@ -271,6 +274,8 @@ color: #212121;
 .primary {
     min-width: 200px;
     padding: 10px 32px;
+
+
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
